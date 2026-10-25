@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BCA Class Timetable</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 25px; }
+    h1, p { text-align: center; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #555; padding: 12px; text-align: center; }
+    th { background: #d9eaf7; }
+    caption { font-weight: bold; padding: 10px; }
+  </style>
+</head>
+<body>
+  <h1>BCA Class Timetable</h1>
+  <p>Department of Computer Applications</p>
+  <table>
+    <caption>Weekly Timetable — Sample</caption>
+    <thead>
+      <tr><th>Day</th><th>9:00–10:00</th><th>10:00–11:00</th><th>11:00–12:00</th><th>12:00–1:00</th></tr>
+    </thead>
+    <tbody>
+      <tr><th>Monday</th><td>Java</td><td>Mathematics</td><td rowspan="2">Web Technology Lab</td><td>Break</td></tr>
+      <tr><th>Tuesday</th><td>DBMS</td><td>English</td><td>Computer Networks</td></tr>
+      <tr><th>Wednesday</th><td colspan="2">Web Technology Practical</td><td>Java</td><td>Break</td></tr>
+      <tr><th>Thursday</th><td>Computer Networks</td><td>DBMS</td><td>Mathematics</td><td>Break</td></tr>
+      <tr><th>Friday</th><td>Java</td><td>Web Technology</td><td>Library</td><td>Break</td></tr>
+    </tbody>
+    <tfoot><tr><td colspan="5">Faculty/Lab in-charge: Department Faculty</td></tr></tfoot>
+  </table>
+  <p>Note: This is a sample timetable for practical demonstration.</p>
+</body>
+</html>
+<!-- Tables suit timetables because information is arranged in rows and columns.
+     rowspan combines cells vertically; colspan combines cells horizontally. -->

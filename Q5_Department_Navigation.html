@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Department Navigation</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; color: #222; }
+    header { background: #17365d; color: white; padding: 22px; }
+    nav { background: #e7eef7; padding: 14px; display: flex; flex-wrap: wrap; gap: 14px; }
+    nav a { color: #17365d; text-decoration: none; font-weight: bold; }
+    main { padding: 24px; }
+    section { padding: 18px 0; border-bottom: 1px solid #ddd; }
+    footer { background: #17365d; color: white; text-align: center; padding: 14px; }
+  </style>
+</head>
+<body>
+  <header><h1>Department of Computer Applications</h1><p>Learn • Create • Innovate</p></header>
+  <nav aria-label="Main navigation">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#courses">Courses</a>
+    <a href="#faculty">Faculty</a><a href="#labs">Labs</a><a href="#assignments">Assignments</a>
+    <a href="#notices">Notices</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+  </nav>
+  <main>
+    <section id="home"><h2>Home</h2><p>Welcome to the department webpage.</p></section>
+    <section id="about"><h2>About</h2><p>The department introduces students to computing and software development.</p></section>
+    <section id="courses"><h2>Courses</h2><p>BCA and related computer application subjects.</p></section>
+    <section id="faculty"><h2>Faculty</h2><p>Meet the department teaching team.</p></section>
+    <section id="labs"><h2>Labs</h2><p>Computer laboratory and practical learning facilities.</p></section>
+    <section id="assignments"><h2>Assignments</h2><p>Practical tasks and study activities.</p></section>
+    <section id="notices"><h2>Notices</h2><p>Important department announcements.</p></section>
+    <section id="gallery"><h2>Gallery</h2><p>Photos of events and activities.</p></section>
+    <section id="contact"><h2>Contact</h2><p>Email: department@example.edu</p><p><a href="https://www.ugc.gov.in/" target="_blank" rel="noopener">Visit UGC website (external link)</a></p></section>
+  </main>
+  <footer><p>&copy; 2026 Department of Computer Applications</p></footer>
+</body>
+</html>
+<!-- Internal links (#about, #courses, etc.) move to sections on the same page.
+     External links open a different website, such as the UGC website. -->

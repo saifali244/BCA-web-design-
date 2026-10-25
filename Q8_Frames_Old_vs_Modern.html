@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frames: Old Approach vs Modern Design</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; color: #222; }
+    header, footer { background: #17365d; color: white; padding: 18px; text-align: center; }
+    nav { background: #e7eef7; padding: 12px; text-align: center; }
+    nav a { margin: 0 12px; }
+    main { display: grid; grid-template-columns: 220px 1fr; gap: 20px; padding: 20px; }
+    aside, article { padding: 18px; background: #f5f7fa; border-radius: 8px; }
+    @media (max-width: 650px) { main { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header><h1>Frames: Old Approach vs Modern Design</h1></header>
+  <nav><a href="#history">History</a><a href="#limitations">Limitations</a><a href="#modern">Modern Layout</a></nav>
+  <main>
+    <aside><h2>Contents</h2><ul><li><a href="#history">Traditional frames</a></li><li><a href="#limitations">Limitations</a></li><li><a href="#modern">Modern design</a></li></ul></aside>
+    <article>
+      <section id="history">
+        <h2>Traditional Frames and Framesets</h2>
+        <p>Older HTML used the <code>&lt;frameset&gt;</code> element to divide a browser window into separate frames. The <code>&lt;frame&gt;</code> element loaded a different HTML document inside each frame.</p>
+      </section>
+      <section id="limitations">
+        <h2>Limitations of Frames</h2>
+        <ul><li>Framesets are obsolete in HTML5.</li><li>They can make navigation, bookmarking and printing confusing.</li><li>Accessibility and responsive layouts can be difficult.</li><li>Individual frames may not work well on small screens.</li></ul>
+      </section>
+      <section id="modern">
+        <h2>Modern Semantic HTML and CSS Layout</h2>
+        <p>This page uses <code>header</code>, <code>nav</code>, <code>main</code>, <code>aside</code>, <code>article</code>, <code>section</code> and <code>footer</code> with CSS Grid. The layout adjusts to smaller screens using a media query.</p>
+      </section>
+    </article>
+  </main>
+  <footer><p>&copy; 2026 HTML5 Practical Assignment</p></footer>
+</body>
+</html>
+<!-- Modern HTML5 and CSS layout is preferred to obsolete framesets. Semantic elements identify content roles,
+     while CSS Grid and media queries create flexible, responsive layouts. -->

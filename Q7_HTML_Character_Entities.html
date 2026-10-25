@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Character Entities</title>
+  <style>body { font-family: Arial, sans-serif; margin: 30px; line-height: 1.8; } table { border-collapse: collapse; } th, td { border: 1px solid #777; padding: 10px 14px; }</style>
+</head>
+<body>
+  <h1>HTML Character Entity Challenge</h1>
+  <p>HTML entities display special characters that may otherwise be interpreted as HTML markup.</p>
+  <table>
+    <thead><tr><th>Character</th><th>Entity Reference</th><th>Meaning / Use</th></tr></thead>
+    <tbody>
+      <tr><td>&lt;</td><td>&amp;lt;</td><td>Less-than sign / opening angle bracket</td></tr>
+      <tr><td>&gt;</td><td>&amp;gt;</td><td>Greater-than sign / closing angle bracket</td></tr>
+      <tr><td>&amp;</td><td>&amp;amp;</td><td>Ampersand</td></tr>
+      <tr><td>&copy;</td><td>&amp;copy;</td><td>Copyright symbol</td></tr>
+      <tr><td>&reg;</td><td>&amp;reg;</td><td>Registered trademark</td></tr>
+      <tr><td>&quot;</td><td>&amp;quot;</td><td>Quotation mark</td></tr>
+      <tr><td>&apos;</td><td>&amp;apos;</td><td>Apostrophe</td></tr>
+      <tr><td>&nbsp;</td><td>&amp;nbsp;</td><td>Non-breaking space</td></tr>
+      <tr><td>&times;</td><td>&amp;times;</td><td>Multiplication sign</td></tr>
+      <tr><td>&divide;</td><td>&amp;divide;</td><td>Division sign</td></tr>
+      <tr><td>&plusmn;</td><td>&amp;plusmn;</td><td>Plus-or-minus sign</td></tr>
+      <tr><td>&le;</td><td>&amp;le;</td><td>Less than or equal to</td></tr>
+      <tr><td>&ge;</td><td>&amp;ge;</td><td>Greater than or equal to</td></tr>
+    </tbody>
+  </table>
+  <h2>Example</h2>
+  <p>To display the tag <code>&lt;p&gt;Hello&lt;/p&gt;</code> as text, write <code>&amp;lt;p&amp;gt;Hello&amp;lt;/p&amp;gt;</code> in the HTML source.</p>
+  <p>Mathematical example: 5 &times; 4 = 20; 10 &divide; 2 = 5; x &le; 10.</p>
+  <p>&copy; 2026 Student HTML Practical</p>
+</body>
+</html>
+<!-- Entity references are useful when showing reserved characters such as <, > and & as text,
+     and for consistently displaying symbols in HTML documents. UTF-8 is declared in the head. -->

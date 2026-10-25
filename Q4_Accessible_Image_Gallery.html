@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Event Image Gallery</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 25px; background: #fafafa; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
+    figure { margin: 0; padding: 12px; background: white; border: 1px solid #ddd; border-radius: 8px; }
+    img { width: 100%; height: 180px; object-fit: cover; border-radius: 5px; }
+    figcaption { padding-top: 8px; text-align: center; }
+  </style>
+</head>
+<body>
+  <h1>College Event Gallery</h1>
+  <p>Memories from our college activities.</p>
+  <div class="gallery">
+    <figure>
+      <img src="https://placehold.co/600x400?text=Annual+Day" alt="Stage decorated for the college annual day celebration">
+      <figcaption>Annual Day Celebration</figcaption>
+    </figure>
+    <figure>
+      <img src="https://placehold.co/600x400?text=Sports+Meet" alt="Students taking part in a college sports meet">
+      <figcaption>Annual Sports Meet</figcaption>
+    </figure>
+    <figure>
+      <img src="https://placehold.co/600x400?text=Tech+Fest" alt="Students presenting projects at a technology exhibition">
+      <figcaption>Technology Exhibition</figcaption>
+    </figure>
+  </div>
+  <h2>Why image accessibility matters</h2>
+  <p>Meaningful alt text describes the image to users of screen readers and appears if the image cannot load. Captions provide visible context. Responsive sizing helps images fit different screens without distortion.</p>
+</body>
+</html>
+<!-- Use concise, meaningful alt text. The width is responsive and object-fit keeps image proportions visually consistent.
+     Placeholder images are used for demonstration; they can be replaced with college event photos. -->
